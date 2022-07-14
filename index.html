@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Static Template</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="lateral-menu">
+          <div class="menu-items">
+            <ul>
+              <img src="ASSETS/logo.png" />
+              <li>
+                <img src="ASSETS/dashboard.svg" />
+                <p>dashboard</p>
+              </li>
+
+              <li>
+                <img src="ASSETS/personagenss.svg" />
+                <p>People</p>
+              </li>
+
+              <li>
+                <img src="ASSETS/planetass.svg" />
+                <p>Planets</p>
+              </li>
+
+              <li>
+                <img src="ASSETS/nave.svg" />
+                <p>Starships</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="settings">
+          <i data-feather="settings"></i>
+          <p>Configurações</p>
+        </div>
+      </div>
+      <div class="content">
+         <div class="cards-header">
+           <div class="card card-small">
+          <div class="card-content">
+            <div class="card-info">
+              <p>People</p>
+              <h2 id="people"></h2>
+            </div>
+            <img src="ASSETS/personagens-black.svg" />
+          </div>
+            </div>
+           <div class="card card-small">
+          <div class="card-container">
+          <div class="card-content">
+            <div class="card-info">
+              <p>Species</p>
+             <h2 id="species"></h2>
+            </div>
+           <img src="ASSETS/luas-black.svg" />
+          </div>
+          </div>
+            </div>
+           <div class="card card-small">
+          <div class="card-content">
+            <div class="card-info">
+             <p>Planets</p>
+              <h2 id="planets"></h2>
+           </div>
+           <img src="ASSETS/planetas-black.svg" />
+          </div>
+           </div>
+          <div class="card card-small">
+          <div class="card-content">
+           <div class="card-info">
+             <p>Starships</p>
+              <h2 id="starships"></h2>
+            </div>
+            <img src="ASSETS/nave-blackk.svg" />
+          </div>
+          </div>
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Titles</th>
+                <th>Release</th>
+                <th>Director</th>
+                <th>Episodes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"> </script>
+  </body>
+</html>
